@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>🌦️ WeatherNow</h1>
+        <p class="subtitle">Live weather, powered by Open-Meteo.</p>
+
+        <form id="search-form">
+            <input
+                type="text"
+                id="city-input"
+                placeholder="Enter a city..."
+                required
+            >
+            <button type="submit">Search</button>
+        </form>
+
+        <p id="status">Search for a city to get started.</p>
+
+        <section id="weather-result"></section>
+
+        <footer>Made with Python-learning energy & JavaScript ✨</footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
